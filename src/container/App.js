@@ -1,5 +1,5 @@
 import React from 'react'
-import { APP_NAME, PERSONA, QR_CODE } from './constants'
+import { APP_NAME, PERSONA, QR_CODE } from '../constants'
 import Encabezado from './Encabezado'
 import { InformacionContacto } from './InformacionContacto'
 
