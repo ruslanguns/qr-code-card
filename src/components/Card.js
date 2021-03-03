@@ -3,7 +3,7 @@ import { PropTypes } from 'prop-types';
 
 const Card = ({ imagenSrc, imagenAlt, children }) => {
   return (
-    <div className="card" style={{ width: '300px' }}>
+    <div className="card" style={{ width: '400px' }}>
       {
         imagenSrc && 
           <div className="col d-flex justify-content-center mt-4">
