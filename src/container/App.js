@@ -1,13 +1,13 @@
 import React from 'react'
-import { APP_NAME, PERSONA, QR_CODE } from '../constants'
+import { APP_NAME } from '../constants'
+import { Content } from './Content'
 import Encabezado from './Encabezado'
-import { InformacionContacto } from './InformacionContacto'
 
 const App = () => {
   return (
     <>
       <Encabezado name={APP_NAME} />
-      <InformacionContacto persona={PERSONA} qrCode={QR_CODE}/>
+      <Content />
     </>
   )
 }
